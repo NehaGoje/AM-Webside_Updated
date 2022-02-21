@@ -1,0 +1,131 @@
+.navbar {
+  background-color: maroon;
+}
+
+.top-nav-collapse {
+  background-color: maroon;
+}
+
+.p-text-menu {
+  color: white !important;
+  font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.banner-img {
+  position: relative;
+}
+
+.bottom-left {
+  position: absolute;
+  vertical-align: bottom;
+  bottom: 8px;
+  left: 100px;
+  font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  font-size: 40px;
+  font-weight: 100;
+}
+
+.main-cont {
+  margin: 0 auto;
+  padding: 20px 0;
+  position: relative;
+  width: 980px;
+}
+
+.sec-text {
+  padding-top: 30px;
+}
+
+.p-text-year {
+  font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+  font-size: 35px;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.p-text-main {
+  font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+  color: maroon;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.p-text-sub {
+  font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.line {
+  background: gray;
+  position: relative;
+  height: 2.2px;
+}
+.line:before {
+  content: '';
+  background: maroon;
+  width: 50%;
+  height: 1.5px;
+  position: absolute;
+}
+
+.btn-floating {
+  background-color: gray;
+  position: relative;
+  z-index: 2;
+  display: inline-block;
+
+  overflow: hidden;
+  vertical-align: middle;
+  cursor: pointer;
+  border-radius: 50%;
+  color: white;
+  text-decoration: none;
+}
+
+.btn-floating:hover {
+  background-color: gray;
+  position: relative;
+  z-index: 2;
+  display: inline-block;
+
+  overflow: hidden;
+  vertical-align: middle;
+  cursor: pointer;
+  border-radius: 50%;
+  color: maroon;
+  text-decoration: none;
+}
+
+.page-footer {
+  background-color: black;
+  height: 130px;
+}
+
+.footer-text {
+  color: white;
+}
+
+.copyright {
+  font-size: 10px;
+  color: white;
+}
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: maroon;
+  }
+}
+
+html,
+body,
+header,
+.view {
+  height: 100%;
+}

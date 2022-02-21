@@ -1,0 +1,221 @@
+.navbar {
+  background-color: maroon;
+}
+
+.top-nav-collapse {
+  background-color: maroon;
+}
+
+.p-text-menu {
+  color: white !important;
+  font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.banner-img {
+  position: relative;
+}
+
+.bottom-left {
+  position: absolute;
+  vertical-align: bottom;
+  bottom: 8px;
+  left: 100px;
+  font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  font-size: 40px;
+  font-weight: 100;
+}
+
+.main-cont {
+  margin: 0 auto;
+  padding: 20px 0;
+  position: relative;
+  width: 980px;
+}
+
+.separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.separator::after {
+  content: '';
+  border-bottom: 1px solid #000;
+  width: 60px;
+}
+
+.separator:not(:empty)::before {
+  margin-right: 0.25em;
+}
+
+.separator:not(:empty)::after {
+  margin-left: 0.25em;
+}
+
+.sec-text-right {
+  padding-top: 40px;
+}
+
+.p-text-intro {
+  font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.p-text-main {
+  font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+  color: maroon;
+  font-size: 2rem;
+  line-height: 1.2;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.p-text-facts {
+  font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+  font-size: 2rem;
+  line-height: 1.2;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.p-text-snapshots {
+  font-family: Mistral;
+  color: black;
+  font-size: 20pt;
+  line-height: 0.5;
+}
+
+.p-text-testimonials {
+  font-family: Mistral;
+  color: maroon;
+  font-size: 20pt;
+  line-height: 0.5;
+}
+
+.p-text-sub {
+  font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+  font-size: 0.7rem;
+  font-weight: 700;
+  line-height: 1.8;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.p-testimonials-text {
+  font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+  font-size: 0.8rem;
+  font-weight: 600;
+  line-height: 1.8;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.p-testimonials-position {
+  font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+  color: maroon;
+  font-size: 0.8rem;
+  font-weight: 600;
+  line-height: 1.8;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.p-text-link {
+  font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+  color: maroon;
+  font-size: 0.7rem;
+  line-height: 1.8;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.vl {
+  border-left: 1px solid maroon;
+  height: 40px;
+  margin-left: 15px;
+  margin-top: 5px;
+}
+
+.line {
+  background: gray;
+  position: relative;
+  height: 2.2px;
+}
+.line:before {
+  content: '';
+  background: maroon;
+  width: 50%;
+  height: 1.5px;
+  position: absolute;
+}
+
+.btn-floating {
+  background-color: gray;
+  position: relative;
+  z-index: 2;
+  display: inline-block;
+
+  overflow: hidden;
+  vertical-align: middle;
+  cursor: pointer;
+  border-radius: 50%;
+  color: white;
+  text-decoration: none;
+}
+
+.btn-floating:hover {
+  background-color: gray;
+  position: relative;
+  z-index: 2;
+  display: inline-block;
+
+  overflow: hidden;
+  vertical-align: middle;
+  cursor: pointer;
+  border-radius: 50%;
+  color: maroon;
+  text-decoration: none;
+}
+
+.page-footer {
+  background-color: black;
+  height: 130px;
+}
+
+.footer-text {
+  color: white;
+}
+
+.copyright {
+  font-size: 10px;
+  color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: maroon;
+  }
+}
+
+.bg-maroon {
+  background-color: maroon;
+}
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
