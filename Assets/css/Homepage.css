@@ -8,7 +8,7 @@
 
 .p-text-menu {
   color: white !important;
-  font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Dosis', sans-serif;
   font-weight: 500;
   font-size: 15px;
 }
@@ -43,7 +43,7 @@
 
 .separator::after {
   content: '';
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid maroon;
   width: 60px;
 }
 
@@ -55,8 +55,91 @@
   margin-left: 0.25em;
 }
 
+.media {
+  display: flex;
+}
+
+.media-body {
+  flex: 1;
+  margin-left: 10px;
+}
 .sec-text-right {
   padding-top: 40px;
+}
+
+.p-text-name {
+  font-family: Mistral;
+  color: maroon;
+  font-size: 50px;
+}
+
+.p-text-believe {
+  font-family: 'Dosis', sans-serif;
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.carousel-indicators {
+  position: relative !important;
+  justify-content: left;
+  margin-left: 0% !important;
+}
+
+.believe {
+  margin-top: 100px;
+}
+
+.competency-grid {
+  background-color: #ffb246;
+}
+
+.comp-text {
+  font-family: 'Dosis', sans-serif;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.comp-box {
+  padding: 45px;
+  height: 200px;
+  border-color: white !important;
+  border: 0.5px;
+  border-style: solid;
+}
+
+.comp-box:hover {
+  padding: 45px;
+  height: 200px;
+  border-color: white !important;
+  border: 0.5px;
+  border-style: solid;
+  /* background-color: maroon; */
+  background-image: radial-gradient(#f85204, maroon);
+}
+
+.pic-testimonial-box {
+  border-color: white !important;
+  border: 0.5px;
+  border-style: solid;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+.pic-testimonial-box:hover {
+  filter: sepia(100%);
+}
+
+.testimonial-button.active {
+  filter: sepia(100%);
+}
+.testimonial-button {
+  border: none;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
 }
 
 .p-text-intro {
@@ -68,12 +151,10 @@
 }
 
 .p-text-main {
-  font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Dosis', sans-serif;
   color: maroon;
-  font-size: 2rem;
+  font-size: 30px;
   line-height: 1.2;
-  margin-top: 0px;
-  margin-bottom: 0px;
 }
 
 .p-text-facts {
@@ -88,54 +169,47 @@
 .p-text-snapshots {
   font-family: Mistral;
   color: black;
-  font-size: 20pt;
+  font-size: 40px;
   line-height: 0.5;
 }
 
 .p-text-testimonials {
   font-family: Mistral;
   color: maroon;
-  font-size: 20pt;
+  font-size: 40px;
   line-height: 0.5;
 }
 
 .p-text-sub {
-  font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Dosis', sans-serif;
   color: black;
-  font-size: 0.7rem;
-  font-weight: 700;
-  line-height: 1.8;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
 }
 
 .p-testimonials-text {
-  font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Dosis', sans-serif;
   color: black;
-  font-size: 0.8rem;
-  font-weight: 600;
-  line-height: 1.8;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
 }
 
 .p-testimonials-position {
-  font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Dosis', sans-serif;
   color: maroon;
-  font-size: 0.8rem;
-  font-weight: 600;
-  line-height: 1.8;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.2;
 }
 
 .p-text-link {
-  font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Dosis', sans-serif;
   color: maroon;
-  font-size: 0.7rem;
-  line-height: 1.8;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  font-size: 15px;
+  line-height: 1.2;
+  text-decoration: none;
 }
 
 .vl {
@@ -187,6 +261,7 @@
 }
 
 .page-footer {
+  font-family: 'Dosis', sans-serif;
   background-color: black;
   height: 130px;
 }
