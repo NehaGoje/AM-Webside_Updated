@@ -40,13 +40,16 @@
   display: flex;
   align-items: center;
   text-align: center;
+  float: right;
+  font-size: 20px;
+  font-weight: 600;
 }
 
-.separator::before {
+/* .separator::before {
   content: '';
   border-bottom: 1px solid #000;
-  width: 120px;
-}
+  width: 50px;
+}*/
 
 .separator:not(:empty)::before {
   margin-right: 0.25em;
@@ -91,6 +94,7 @@
   color: #d4b00e;
   font-size: 50pt;
   line-height: 0.5;
+  float: right;
 }
 
 .p-text-sub {
@@ -182,20 +186,43 @@
 .page-footer {
   font-family: 'Dosis', sans-serif;
   background-color: black;
-  height: 130px;
+  height: 150px;
 }
 
 .footer-text {
   color: white;
 }
 
+.footer-options {
+  padding: 0px 20px;
+}
 .copyright {
   font-size: 10px;
   color: white;
 }
-@media only screen and (max-width: 768px) {
+
+@media only screen and (max-width: 1024px) {
   .navbar {
     background-color: maroon;
+  }
+  .page-footer {
+    text-align: center;
+    height: 250px;
+  }
+
+  .footer-links {
+    display: grid;
+  }
+  .p-text-name {
+    float: none;
+    text-align: center;
+    font-size: 50px;
+  }
+  .separator {
+    margin-bottom: 25px;
+    float: none;
+    text-align: center;
+    display: block;
   }
 }
 

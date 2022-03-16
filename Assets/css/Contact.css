@@ -155,7 +155,11 @@
 .page-footer {
   font-family: 'Dosis', sans-serif;
   background-color: black;
-  height: 130px;
+  height: 150px;
+}
+
+.footer-options {
+  padding: 0px 20px;
 }
 
 .footer-text {
@@ -165,9 +169,22 @@
   font-size: 10px;
   color: white;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
   .navbar {
     background-color: maroon;
+  }
+
+  .p-text-main {
+    font-size: 40px;
+  }
+
+  .page-footer {
+    text-align: center;
+    height: 250px;
+  }
+
+  .footer-links {
+    display: grid;
   }
 }
 
