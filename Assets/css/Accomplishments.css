@@ -172,9 +172,11 @@
     text-align: center !important;
     font-family: 'Dosis', sans-serif;
     color: white;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 100;
-    left: auto;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
   }
 
   .award-pic {

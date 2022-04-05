@@ -91,6 +91,14 @@
   margin-top: 100px;
 }
 
+.comp-left {
+  padding-right: 0px;
+}
+
+.comp-right {
+  padding-left: 0px;
+}
+
 .competency-grid {
   background-color: #ffb246;
 }
@@ -113,12 +121,14 @@
 
 .comp-box:hover {
   padding: 45px;
-  height: 200px;
+  /* height: 200px; */
   border-color: white !important;
   border: 0.5px;
   border-style: solid;
   /* background-color: maroon; */
   background-image: radial-gradient(#f85204, maroon);
+  background-image: -webkit-radial-gradient(#f85204, maroon);
+  background-image: -moz-radial-gradient(#f85204, maroon);
 }
 
 .pic-testimonial-box {
@@ -308,6 +318,20 @@
 .footer-options {
   padding: 0px 20px;
 }
+@media only screen and (max-width: 525px) {
+  .comp-left {
+    padding-right: 10px;
+  }
+
+  .comp-right {
+    padding-left: 10px;
+  }
+
+  .comp-component {
+    height: 60px;
+    width: 60px;
+  }
+}
 
 @media only screen and (max-width: 1024px) {
   .navbar {
@@ -321,6 +345,19 @@
 
   .footer-links {
     display: grid;
+  }
+
+  .bottom-left {
+    position: absolute;
+    vertical-align: bottom;
+    text-align: center !important;
+    font-family: 'Dosis', sans-serif;
+    color: white;
+    font-size: 30px;
+    font-weight: 100;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
   }
 }
 

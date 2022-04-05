@@ -224,6 +224,19 @@
     text-align: center;
     display: block;
   }
+
+  .bottom-left {
+    position: absolute;
+    vertical-align: bottom;
+    text-align: center !important;
+    font-family: 'Dosis', sans-serif;
+    color: white;
+    font-size: 30px;
+    font-weight: 100;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+  }
 }
 
 html,
